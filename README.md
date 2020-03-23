@@ -1,53 +1,57 @@
 ---
-page_type: sample
+page_type: resources
 languages:
-- csharp
+  - md
+  - powershell
+description: |
+  Windows Virtual Desktop (WVD) - resources and scripts for easy use
 products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+  - azure
+  - windows-virtual-desktop
+urlFragment: azure-windows-virtual-desktop-resources-and-tutorial
 ---
 
-# Official Microsoft Sample
+# WVD :- Windows Virtual Desktop
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+COVID-19 pandemic made many organization to let their employee work from home. The main challenge for any organization is to make sure their employees are as productive as they are in office.
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+[Microsoft Azure Windows Virtual Desktop aka WVD](https://azure.microsoft.com/en-us/services/virtual-desktop/) is a service on Azure that could be one part of a COVID-19 response plan. With WVD, we no longer need to be concerned with the constraints of the physical hardware or a person's location.
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
-
-Give a short description for your sample here. What does it do and why is it important?
+The purpose of this page is to show the collection of resources, sample scripts, and tutorials for easy use of Windows Virtual Desktop which provides virtual working environment to employees with secure and scalable manner.
 
 ## Contents
 
 Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+| File/folder          | Description                                 |
+|----------------------|---------------------------------------------|
+| `scripts`            | Sample script files.                        |
+| `.gitignore`         | Define what to ignore at commit time.       |
+| `CODE_OF_CONDUCT.md` | Code of conduct.                            |
+| `CONTRIBUTING.md`    | Guidelines for contributing to the content. |
+| `README.md`          | This README file.                           |
+| `LICENSE`            | The license for the resource.               |
 
-## Prerequisites
+## Steps to spin Windows Virtual Desktop
+
+1. Step 1:- Setup a user account and assign role assignment
+
+2. Step 2:- Provision Azure Active Directory Domain Services
+
+3. Step 3:- Provision a Windows Virtual Desktop Tenant Creator account
+
+4. Step 4:- Deploy Windows Virtual Desktop in Azure
 
 Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
 
-## Setup
+### Step 1:- Setup a user account and assign role assignment
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+### Step 2:- Provision Azure Active Directory Domain Services
 
-## Running the sample
+### Step 3:- Provision a Windows Virtual Desktop Tenant Creator account
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+### Step 4:- Deploy Windows Virtual Desktop in Azure
 
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
 
 ## Contributing
 
